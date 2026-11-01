@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <path id="textArc" d="M 60,250 A 190,190 0 0,1 440,250" />
+  </defs>
+  <g fill="none" stroke="#0d47a1" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 70,250 A 180,180 0 0,1 430,250" stroke-width="6" />
+    <path d="M 242,110 L 258,110 L 258,310 L 242,310 Z" fill="#0d47a1" stroke-width="2" />
+    <path d="M 190,165 L 310,165 L 310,181 L 190,181 Z" fill="#0d47a1" stroke-width="2" />
+    <line x1="250" y1="110" x2="250" y2="310" stroke="#ffffff" stroke-width="2" />
+    <line x1="190" y1="173" x2="310" y2="173" stroke="#ffffff" stroke-width="2" />
+    <path d="M 60,325 Q 150,305 245,320 Q 248,321 250,322" stroke-width="5" />
+    <path d="M 440,325 Q 350,305 255,320 Q 252,321 250,322" stroke-width="5" />
+    <path d="M 50,345 Q 80,340 110,348" stroke-width="3" opacity="0.7" />
+    <path d="M 450,345 Q 420,340 390,348" stroke-width="3" opacity="0.7" />
+    <line x1="65" y1="372" x2="435" y2="372" stroke-width="4" />
+  </g>
+  <text font-family="'Montserrat', 'Arial Black', sans-serif" font-weight="900" font-size="28" fill="#0d47a1" letter-spacing="3">
+    <textPath href="#textArc" startOffset="50%" text-anchor="middle">NEW JERUSALEM COMMUNITY</textPath>
+  </text>
+  <text x="250" y="360" font-family="'Montserrat', 'Arial Black', sans-serif" font-weight="900" font-size="44" fill="#0d47a1" letter-spacing="4" text-anchor="middle">CHURCH</text>
+</svg>

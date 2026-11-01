@@ -1,0 +1,80 @@
+/* Container & Title Setup */
+.about-grid-section {
+  padding: 60px 20px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+/* 3-Column Grid Layout: Pic 1 | Description | Pic 2 */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr; /* Left image, wider middle text, right image */
+  gap: 24px;
+  align-items: center; /* Vertically aligns photos with text */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Glassmorphism Card Style */
+.grid-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Text Box Styling */
+.text-card {
+  padding: 28px;
+  color: #f0f0f0;
+}
+
+.text-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+.text-card p {
+  font-size: 0.98rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+/* Photo Frames & Fit */
+.img-card {
+  height: 220px; /* Standard height across all 4 rows */
+  display: flex;
+}
+
+.img-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Prevents stretching or distortion */
+  transition: transform 0.4s ease;
+}
+
+/* Hover Zoom Effect */
+.img-card:hover img {
+  transform: scale(1.05);
+}
+
+/* Responsive Stacking for Mobile Phones & Tablets */
+@media (max-width: 992px) {
+  .about-grid {
+    grid-template-columns: 1fr; /* Stacks column by column on smaller screens */
+    gap: 16px;
+  }
+
+  .img-card {
+    height: 200px;
+  }
+}

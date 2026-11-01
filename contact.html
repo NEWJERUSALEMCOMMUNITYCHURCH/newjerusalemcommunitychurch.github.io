@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NJCC | CONTACT US</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/css.css">
+     <!-- Font Awesome Icons (Required for Hamburger & Sidebar Icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- <header class="wrapper">
+        <div class="navigation">
+            <div class="primary-nav">
+                <div class="logo"></div>
+                <ul class="gradient-text-nav">
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="PORTFOLIO.html">PORTFOLIO</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html" class="active">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </header> -->
+
+    <main class="about-container">
+
+        <section class="glass-card about-hero">
+            <h1>Contact Us</h1>
+            <p class="tagline">
+                We would love to connect with you. Reach out with any questions, prayer requests, or service inquiries.
+            </p>
+        </section>
+
+        <section class="grid-two-col">
+            
+            <!-- Left Column: Contact Info -->
+            <div class="glass-card contact-info">
+                <h2>Get in Touch</h2>
+                <p class="contact-desc">
+                    Whether you are visiting for the first time or need spiritual support, our church family is here for you.
+                </p>
+
+                <ul class="contact-list">
+                    <li>
+                        <strong>&#128205; Location:</strong>
+                        <span>Seguku-Katale, Kazinga, Kampala, Uganda</span>
+                    </li>
+                    <li>
+                        <strong>&#128231; Email:</strong>
+                        <a href="mailto:newjerusalemchurch.ug@gmail.com">newjerusalemchurch.ug&#64;gmail.com</a>
+                    </li>
+                    <li>
+                        <strong>&#128222; Phone:</strong>
+                        <span>+256 754 852 414</span>
+                    </li>
+                </ul>
+
+                <hr class="contact-divider">
+
+                <h3>Service Hours</h3>
+                <p class="contact-hours">
+                    Sunday Service: 9:00 AM &#8211; 1:30 PM EAT<br>
+                    Wednesday Bible Study: 5:00 PM &#8211; 6:30 PM EAT
+                </p>
+            </div>
+
+            <!-- Right Column: Netlify-Enabled Contact Form -->
+            <div class="glass-card">
+                <h2>Send a Message</h2>
+                
+                <!-- Netlify Form Attributes added here -->
+                <form class="glass-form" name="njcc-contact" method="POST" data-netlify="true">
+                    <!-- Hidden input required for Netlify bot protection & routing -->
+                    <input type="hidden" name="form-name" value="njcc-contact" />
+
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="e.g., Prayer Request, Service Inquiry">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="How can we help or pray for you?" required></textarea>
+                    </div>
+
+                    <div class="btn-wrapper" style="margin-top: 1rem; width: 100%;">
+                        <button type="submit" class="submit-btn">SEND MESSAGE</button>
+                    </div>
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="home.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="PORTFOLIO.html">Portfolio</a>
+                <a href="services.html">Sermons</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <hr class="footer-divider">
+
+            <div class="footer-credits">
+                <p>&#169; 2026 Boulder Inc. All rights reserved.</p>
+                <p class="attribution">
+                    Powered by <span>The Independent</span> &#124; Designed by 
+                    <a href="mailto:joshuagabi580@gmail.com">joshuagabi580&#64;gmail.com</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="header.js"></script>
+
+</body>
+</html>
